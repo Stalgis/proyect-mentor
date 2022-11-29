@@ -1,0 +1,81 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --cream: hsl(30, 38%, 92%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Fraunces", serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  background-color: var(--cream);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 75vh;
+}
+
+.card, .card-text {
+  background-color: white;
+  width: 326px;
+  height: 489px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.card-text p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-grayish-blue);
+  font-size: 1.8rem;
+  margin: 5px;
+}
+.card-text h1 {
+  height: 450px;
+  font-size: 4.4rem;
+  margin: 10px;
+  height: 35%;
+  color: var(--very-dark-blue);
+}
+.card-text h2 {
+  color: var(--dark-cyan);
+  font-size: 2.5rem;
+}
+.card-text #tachao {
+  color: var(--dark-grayish-blue);
+  font-size: 1.2rem;
+}
+.card-text .card-buton {
+  background-color: var(--dark-cyan);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 80px;
+  font-size: 1.9rem;
+  border-radius: 10px;
+}
+.card-text .card-buton:hover {
+  background-color: hsl(158deg, 38%, 21%);
+}
+
+.card-pricipal {
+  width: 100%;
+}/*# sourceMappingURL=estilos.css.map */
